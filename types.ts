@@ -16,7 +16,7 @@ interface Film {
 }
 
 
-interface FilmsResponse {
+export interface FilmsResponse {
     "count": number,
     "next": number | null,
     "previous": number | null,
